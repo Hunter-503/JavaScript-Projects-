@@ -11,3 +11,11 @@ var Dad = Dad.fontcolor("rainbow");
 document.write(Dad,B, A, F, K, H) 
 
 document.write(10 + 10); 
+
+window.alert("I hate this!")//pop up window with message.
+
+function myFunction() { //used different function name to work
+    var str = "This text is green!";
+    var result = str.fontcolor("green");
+    document.getElementById("Green_Text").innerHTML = result    
+}
